@@ -29,6 +29,9 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(stat301Proj)
 ## basic example code
+url <- "https://raw.githubusercontent.com/JustinTrenchcoat/STAT_301_Personal_Project/refs/heads/main/tips.csv"
+data_tips <- read.csv(url(url), header = TRUE)
+
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
